@@ -80,6 +80,9 @@
     width: 300px;
   }
   
+  .skills-category:hover {
+    transform: scale(1.02);
+  }
   .iconContainer {
     display: flex;
     flex-direction: row;

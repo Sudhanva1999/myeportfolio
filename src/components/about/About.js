@@ -98,7 +98,7 @@ const About = () => {
     <div className="about-container">
       <div className="about-content">
         <section className="about-section">
-          <div className="about-entry">
+          <div className="about-entry fromLeft">
             <FontAwesomeIcon icon={faGraduationCap} className="about-icon" />
             <h2>Education</h2>
             <h5>Click for more details !</h5>
@@ -126,7 +126,7 @@ const About = () => {
         </section>
 
         <section className="about-section">
-          <div className="about-entry">
+          <div className="about-entry fromRight">
             <FontAwesomeIcon icon={faBriefcase} className="about-icon" />
             <h2>Work Experience</h2>
             <h5>Click for more details !</h5>
@@ -163,7 +163,7 @@ const About = () => {
       </div>
 
       {showPopup && (
-        <div className="popup" onClick={() => togglePopup('')}>
+        <div className="popup growOut" onClick={() => togglePopup('')}>
           <div className="popup-content" onClick={(e) => e.stopPropagation()}>
             <span className="close" onClick={() => togglePopup('')}>
               &times;
