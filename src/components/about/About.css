@@ -1,4 +1,4 @@
-/* About.css */
+
 @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
@@ -39,7 +39,7 @@ body {
     margin-bottom: 20px;
     border-radius: 30px;
 }
-/* Container styles */
+
 .about-container {
     background-color: #1c1c1c;
     color: #ffffff;
@@ -51,7 +51,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Table styles */
+
 table {
     margin: 0 auto;
     width: 80%; 
@@ -72,7 +72,7 @@ td {
     text-align: left;
 }
 
-/* Blue accent styles */
+
 .horizontal-line {
     border-top: 1px solid #3498db;
     margin: 15px 0;
@@ -90,7 +90,7 @@ td {
     margin: 0 15px;
 }
 
-/* Icon styles */
+
 .about_icon,
 .about_icon_sq {
     max-height: 80px;
@@ -106,7 +106,7 @@ td {
     max-width: 50px;
 }
 
-/* Popup styles */
+
 .popup {
     display: flex;
     justify-content: center;
@@ -128,7 +128,7 @@ td {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Experience details styles */
+
 .experience-details > ul {
     margin-bottom: 20px;
     text-align: left;
@@ -143,7 +143,7 @@ ul {
     color: #ffffff;
 }
 
-/* Close button styles */
+
 .close {
     color: #aaa;
     float: right;
@@ -164,7 +164,7 @@ a {
     color: #3498db;
 }
 
-/* Responsive styles for smaller screens */
+
 @media (max-width: 768px) {
     .about-container {
         max-width: 350px;
@@ -172,7 +172,7 @@ a {
     }
 
     table {
-        width: 100%; /* Full width on smaller screens */
+        width: 100%;
     }
 
     .about_icon,

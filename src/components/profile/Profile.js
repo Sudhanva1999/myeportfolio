@@ -34,7 +34,7 @@ const Profile = () => {
         />
       </div>
       <div className="profile-info">
-        <h1>Hello!</h1>
+      <svg height="100" stroke="white" stroke-width="2" class="text-line" width="100%"><text x="50%" dominant-baseline="middle" text-anchor="middle" y="50%">Hello !</text></svg>
         <p> I am <strong>Sudhanva</strong>, a Fullstack Developer currently 
             pursuing my masters from Northeastern University's 
             Khoury College of Computer Sciences.
